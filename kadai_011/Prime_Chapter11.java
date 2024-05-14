@@ -17,8 +17,8 @@ public class Prime_Chapter11 {
 			//もしNumが
 			if(Num[i]) {
 				
-				for ( int DivNum = i * 2; DivNum < Num.length; DivNum += i) {
-					Num[DivNum] = false;
+				for ( int j = i * 2; j < Num.length; j += i) {
+					Num[j] = false;
 				}
 
 			}
